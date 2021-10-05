@@ -1,0 +1,36 @@
+body {
+	background-color: #F5F5F5;
+	margin: 1em;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.filter {
+	background-color: white;
+	padding: 1em;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0 1em;
+}
+
+h1 {
+	width:fit-content;
+	font-weight: 700;
+}
+
+.categories {
+	display : flex;
+	flex-wrap : wrap;
+	align-items: center;
+	flex-direction : row;
+	justify-content : center;
+}
+
+.tag {
+	background-color: #F5F5F5;
+	list-style-type: none;
+	width:100%;
+	border : 2px orangered solid;
+	border-radius : 15px;
+	display : inline;
+	width: fit-content;
+	padding : 7px;
+	margin : 4px;
+}
